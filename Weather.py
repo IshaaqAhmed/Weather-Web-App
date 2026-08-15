@@ -37,7 +37,7 @@ def main(city_name, state_code, country_code):
     return weather_data
 
 if __name__ == "__main__":
-    lat, lon = get_lat_lon("Lahore", "PB", "PK", 1, api_key)
+    lat, lon = get_lat_lon("Lahore","PB", "PK", 1, api_key) #needs a placeholder ? 
     print(get_current_weather(lat, lon, api_key))
 
 
